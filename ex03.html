@@ -6,25 +6,44 @@
     <title>Document</title>
 
     <style>
-        p{
-           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-           font-size: 14px;
+        .container-amarelo {
+          background-color: #ffffcc; 
+          padding: 20px;
+          padding-right: 20px;
+          padding-top: -20px;
+        }
+    
+        .titulo {
+          font-size: 20px;
+          font-weight: bold;
+          margin: 0 0 10px 0;
+          padding: 0;
+        }
+
+        .container-azul {
+            background-color: #66CCFF;
             padding: 20px;
             padding-right: 20px;
             padding-top: -20px;
-            
         }
-        .titulo {
-  color: maroon; /* Cor do título */
-  font-size: 24px; /* Tamanho do título */
-  font-weight: bold; /* Deixar o título em negrito */
-  margin: 0 0 10px 0; /* Margem abaixo do título reduzida */
+
+        .titulo2 {
+            color:FFFFFF;
+            font-size: 20px;
+          font-weight: bold;
+          margin: 0 0 10px 0;
+          padding: 0;
         }
-    </style>
+    
+        p {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-size: 14px;
+        }
+      </style>
 
 </head>
 <body>
-<div class="container-amarelo" style="background-color:lightyellow;">
+<div class="container-amarelo">
     <p class="titulo" style="color:maroon ;" >Notação Big O</p>
     <p>A notação Big O é uma ferramenta fundamental na análise de algoritmos, utilizada para descrever a complexidade de tempo e espaço de um algoritmo. Ela informa o número de operações que um algoritmo 
         realizará em relação ao tamanho da entrada, permitindo que engenheiros de software avaliem a eficiência de seus algoritmos.
@@ -34,9 +53,12 @@
         eficiência de seus algoritmos. A notação é expressa como O(f(n)), onde f(n) representa a função que descreve o crescimento do tempo de execução ou uso de memória em relação ao tamanho da entrada. 
         É essencial para entender o desempenho de algoritmos em cenários de pior caso e otimizar o código.</p>
 </div>
-    <p style="background-color: #66CCFF;">O problema do caixeiro-viajante (PCV) é um problema que tenta determinar a menor rota para percorrer uma série de cidades (visitando uma única vez cada uma delas), retornando à cidade de origem.
-             Ele é um problema de otimização NP-difícil inspirado na necessidade dos vendedores em realizar entregas em diversos locais (as cidades) percorrendo o menor caminho possível, reduzindo o tempo 
-             necessário para a viagem e os possíveis custos com transporte e combustível.</p>
+   <div class="container-azul">
+    <p class="titulo2"> O Caixeiro Viajante</p>
+    <p>O problema do caixeiro-viajante (PCV) é um problema que tenta determinar a menor rota para percorrer uma série de cidades (visitando uma única vez cada uma delas), retornando à cidade de origem.
+        Ele é um problema de otimização NP-difícil inspirado na necessidade dos vendedores em realizar entregas em diversos locais (as cidades) percorrendo o menor caminho possível, reduzindo o tempo 
+        necessário para a viagem e os possíveis custos com transporte e combustível.</p>
+   </div>
     <p style="background-color: #99FF66;">Um array é uma estrutura de dados que consiste em uma coleção de elementos, onde cada elemento é identificado por índices que indicam a posição ao qual está inserido. Todo array possui um tipo 
             declarado para receber dados iguais e o número máximo de elementos que podem caber dentro dele.</p>
 </body>
